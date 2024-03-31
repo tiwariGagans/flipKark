@@ -1,0 +1,297 @@
+@media screen and (max-width: 1050px) {
+    /* ---------- product ---------- */
+    .product {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- electronics ---------- */
+    .items {
+      flex-wrap: wrap;
+    }
+  
+    .items-card img {
+      width: 55%;
+    }
+    /* ---------------------------------------- */
+  }
+  
+  
+  @media screen and (max-width: 950px) {
+    /* ---------- header ---------- */
+    .seller {
+      display: none;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- slider ---------- */
+    #prevbtn,
+    #nextbtn {
+      font-size: 2rem;
+      font-weight: 500;
+      padding: 10px;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- offers ---------- */
+    .offer-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- footer ---------- */
+    .top-side {
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+  
+    .bottom-side {
+      flex-wrap: wrap;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- oder ---------- */
+    .oder-container {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .oder,
+    .oder-descripction {
+      width: 100%;
+    }
+    /* ---------------------------------------- */
+  }
+  
+  
+  @media screen and (max-width: 770px) {
+    html {
+      font-size: 58%;
+    }
+  
+    /* ---------- product ---------- */
+    .product-card img {
+      width: 5rem;
+      object-fit: cover;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- electronics ---------- */
+    .items-card img {
+      width: 40%;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- slider ---------- */
+    #prevbtn,
+    #nextbtn {
+      padding: 5px;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- varietyProduct---------- */
+    .variety-list {
+      display: none;
+    }
+  
+    .right-side {
+      display: none;
+    }
+  
+    .price-contain {
+      display: block;
+    }
+    /* ---------------------------------------- */
+  }
+  
+  
+  @media screen and (max-width: 690px) {
+    /* ---------- header ---------- */
+    .logo-box .top-logo img {
+      width: 7rem;
+    }
+  
+    .logo-box .bottom-logo h5 {
+      font-size: 1rem;
+    }
+  
+    .logo-box .bottom-logo img {
+      width: 1rem;
+    }
+  
+    .sign {
+      padding: 6px 10px;
+    }
+  
+    /* ---------------------------------------- */
+  
+    /* ---------- electronics ---------- */
+    .items-card {
+      width: 200px;
+    }
+    .items-card img {
+      width: 12rem;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- varietyProduct---------- */
+    .mobile-image img {
+      width: 12rem;
+    }
+  
+    .variety-name {
+      font-size: 1.5rem;
+    }
+  
+    .rating {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .rating-text {
+      font-size: 1.1rem;
+    }
+  
+    .main-price {
+      font-size: 2.2rem;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- oder ---------- */
+    .offer-list {
+      font-size: 1.1rem;
+    }
+    /* ---------------------------------------- */
+  }
+  
+  
+  @media screen and (max-width: 450px) {
+    /* ---------- header ---------- */
+    .header-itams {
+      gap: 15px;
+    }
+  
+    .search-bar {
+      padding: 5px;
+    }
+  
+    .logo-box .top-logo img {
+      width: 6rem;
+    }
+  
+    .logo-box .bottom-logo h5 {
+      font-size: 0.8rem;
+    }
+  
+    .search-bar img {
+      width: 16px;
+      margin-top: 4px;
+    }
+  
+    .sign {
+      display: none;
+    }
+  
+    /* ---------------------------------------- */
+  
+    /* ---------- electronics ---------- */
+    .items-card {
+      width: 145px;
+    }
+    .items-card img {
+      width: 8.5rem;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- slider ---------- */
+    #prevbtn,
+    #nextbtn {
+      font-size: 1.5rem;
+      font-weight: 500;
+      padding: 3px;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- footer ---------- */
+    .payment-mode {
+      width: 30rem;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- varietyProduct---------- */
+    .mobile-image img {
+      width: 9rem;
+    }
+  
+    .variety-name {
+      font-size: 1.3rem;
+    }
+  
+    .rating {
+      font-size: 0.8rem;
+    }
+  
+    .fa-star {
+      font-size: 0.5rem;
+    }
+  
+    .main-price {
+      font-size: 1.7rem;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- oder ---------- */
+    .all-images {
+      row-gap: 30px;
+      flex-direction: column;
+    }
+  
+    .smallimages-box {
+      flex-direction: row;
+      padding: 3px;
+      order: 2;
+    }
+  
+    .mainimage-box {
+      order: 1;
+    }
+  
+    .small-image {
+      width: 3.5rem;
+    }
+  
+    .main-image {
+      width: 50%;
+      margin: auto;
+    }
+  
+    .oder-link a {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    /* ---------------------------------------- */
+  }
+  
+  
+  @media screen and (max-width: 380px) {
+    /* ---------- electronics ---------- */
+    .items-card {
+      width: 100px;
+    }
+    .items-card img {
+      width: 9rem;
+    }
+    /* ---------------------------------------- */
+  
+    /* ---------- oder ---------- */
+    .oder-productname {
+      font-size: 1.7rem;
+    }
+  
+    .offer-list {
+      font-size: 1rem;
+    }
+    /* ---------------------------------------- */
+  }
